@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+html {scroll-behavior: smooth;}
+
+body 
+{
+    min-height: 1000px;
+}
+
+header 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 100px;
+    z-index: 1000;
+    transition: 0.6s;
+}
+
+header.sticky 
+{
+    padding: 5px 10px;
+    background: whitesmoke;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+header .logo 
+{
+    position: relative;
+    font-weight: 700;
+    color:black;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a
+{
+    color: red;
+}
+
+header ul 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li 
+{
+    position: relative;
+    list-style: none;
+} 
+
+header ul li a 
+{
+    position: relative;
+    margin: 0 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: 0.6s;
+}
+
+.banner 
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 
+{
+    color: black;
+    font-size: 95px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.banner h2 span 
+{
+    color: red;
+}
+
+.sec 
+{
+    background: #f8f9f4;
+    padding: 100px;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .content
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.content_about
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 
+{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+p 
+{
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.btn 
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: black;
+    text-decoration: none;
+    color: white;
+}
+
+.support
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+}
+
+.support .box 
+{
+    width: 300px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.05);
+}
+
+.support .box .iconBx
+{
+    margin-top: 25px;
+}
+
+.support .box .iconBx img
+{
+    max-width: 70px;
+    margin-bottom: 25px;
+}
+
+.aupport .box h2
+{
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.soft
+{
+    background: #000;
+    padding-top: 250px;
+    margin-top: -250px;
+}
+
+.soft h3,
+.soft p
+{
+    color: white;
+}
+
+.softbox 
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.softbox h2
+{
+    color: white;
+    font-size: 36px;
+}
+
+.softbox h4
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
