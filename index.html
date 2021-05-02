@@ -8,24 +8,69 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     </head>
     <body>
-        <header id="header">
-            <a href="#" class="logo">Logo</a>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#game">game</a></li>
-                <li><a href="#software">software</a></li>
-                <li><a href="#support">support</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#contact">contact</a></li>
+      <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+          <div class="logo"><a href="#">GameLogo</a></div>
+            <ul class="links">
+              <li><a href="#">Home</a></li>
+              <li>
+                <a href="#" class="desktop-link">Games</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">Games</label>
+                <ul>
+                  <li><a href="#">Drop Menu 1</a></li>
+                  <li><a href="#">Drop Menu 2</a></li>
+                  <li><a href="#">Drop Menu 3</a></li>
+                  <li><a href="#">Drop Menu 4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Services</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Services</label>
+                <ul>
+                  <li><a href="#">Drop Menu 1</a></li>
+                  <li><a href="#">Drop Menu 2</a></li>
+                  <li><a href="#">Drop Menu 3</a></li>
+                  <li>
+                    <a href="#" class="desktop-link">More Items</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">More Items</label>
+                    <ul>
+                      <li><a href="#">Sub Menu 1</a></li>
+                      <li><a href="#">Sub Menu 2</a></li>
+                      <li><a href="#">Sub Menu 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Feedback</a></li>
             </ul>
-        </header>
-
+          </div>
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+        </nav>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      
+      
         <!-- banner slogan / caption -->
         <section class="banner" id="home"><h2><span></span></h2></section>
 
         <section class="sec" id="about">
             <div class="content">
-                <div class="content_about">
+                <div class="content_box">
                     <h3>About</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Voluptatibus ipsa fuga, dolor saepe impedit reprehenderit velit unde 
@@ -38,7 +83,7 @@
 
         <section class="sec" id="support">
             <div class="content">
-                <div class="content_about">
+                <div class="content_box">
                     <h3>support</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Voluptatibus ipsa fuga, dolor saepe impedit reprehenderit velit unde 
@@ -84,7 +129,7 @@
 
         <section class="sec soft" id="software">
             <div class="content">
-                <div class="content_about">
+                <div class="content_box">
                     <h3>exp</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Voluptatibus ipsa fuga, dolor saepe impedit reprehenderit velit unde 
@@ -112,11 +157,158 @@
             </div>
         </section>
 
+        <section class="sec" id="game">
+          <div class="content">
+              <div class="content_box">
+                  <h3>game</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Voluptatibus ipsa fuga, dolor saepe impedit reprehenderit velit unde 
+                  officia neque perspiciatis enim obcaecati optio beatae assumenda sed 
+                  rerum vero similique numquam.</p>
+              </div>
+              
+              <div class="populer">
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+              
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+              
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+              </div>
+
+              <div class="populer">
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+              
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+              
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+
+                <div class="nick">
+                  <a href="#"><h2>name game</h2></a>
+                </div>
+              </div>
+
+          </div>
+      </section>
+
+      <section class="sec" id="duka">
+        <div class="content">
+            <div class="content_box">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus ipsa fuga, dolor saepe impedit reprehenderit velit unde 
+                officia neque perspiciatis enim obcaecati optio beatae assumenda sed 
+                rerum vero similique numquam.</p>
+            </div>
+
+            <div class="teamBx">
+              <div class="member">
+                <div class="imgBx">
+                  <img src="1.jpg" alt="">
+                </div>
+                <div class="details">
+                  <div>
+                    <h2>si android<br><span>tukang mod game</span></h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member">
+                <div class="imgBx">
+                  <img src="1.jpg" alt="">
+                </div>
+                <div class="details">
+                  <div>
+                    <h2>s2 android<br><span>tukang mod game</span></h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member">
+                <div class="imgBx">
+                  <img src="1.jpg" alt="">
+                </div>
+                <div class="details">
+                  <div>
+                    <h2>s3 android<br><span>tukang mod game</span></h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member">
+                <div class="imgBx">
+                  <img src="1.jpg" alt="">
+                </div>
+                <div class="details">
+                  <div>
+                    <h2>s4 android<br><span>tukang mod game</span></h2>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec contact" id="contact">
+      <div class="content">
+          <div class="content_box">
+              <h3>follow me us</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="sci">
+            <ul>
+              <li><a href="#"><img src="facebook.png" alt=""></a></li>
+              <li><a href="#"><img src="facebook.png" alt=""></a></li>
+              <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            </ul>
+          </div>
+
+          <p class="copyright">design by<a href="#">ogut</a></p>
+        </div>
+  </section>
+
         <script type="text/javascript">
             window.addEventListener("scroll", function(){
-                var header = document.querySelector("header");
+            var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0 ); 
             })
-        </script>
+
+            let nav = document.querySelector('nav');
+            let dropdown = nav.querySelector('.dropdown');
+            let dropdownToggle = nav.querySelector("[data-action='dropdown-toggle']");
+            let navToggle = nav.querySelector("[data-action='nav-toggle']");
+
+            dropdownToggle.addEventListener('click', () => {
+	          if (dropdown.classList.contains('show')) {
+		        dropdown.classList.remove('show');
+	          } else {
+		        dropdown.classList.add('show');
+	        }
+        })
+
+            navToggle.addEventListener('click', () => {
+            if (nav.classList.contains('opened')) {
+              nav.classList.remove('opened');
+            } else {
+              nav.classList.add('opened');
+            }
+          })
+        </script> 
     </body>
 </html>
